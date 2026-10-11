@@ -1,0 +1,52 @@
+{
+  "editionId": "CLINIC-PARALLEL-01",
+  "contract": "0x60b3314e0C389BBB4000339a66edF4D6Ea2Cd1dc",
+  "transactions": {
+    "pin": "0x3dce2ae9f155b4722fad8075dab3fac73927b186d35916f92f790a1035d7b021",
+    "align": "0x1ba64a9a898a3843e122d7023c50f6b640e71edc9960081aa2cf23c47f484e48"
+  },
+  "final": {
+    "alignment": [
+      {
+        "fidelity": "EXACT",
+        "segment_id": "S1"
+      },
+      {
+        "fidelity": "EXACT",
+        "segment_id": "S2"
+      },
+      {
+        "fidelity": "EXACT",
+        "segment_id": "S3"
+      }
+    ],
+    "band": "FAITHFUL",
+    "document_digests": [
+      "d9dbc6336dbc7afbba2c731faddab74b8f53bb20f3a8e5b330052ff17bf80f45",
+      "b70eef2a0d1d90d9aa671b1cf6b94258a43dfa953318bd52ca50984189c080f2",
+      "a6f1191961cebf9066b07afd183075d71f21a5c72ac38e3e5accf5a09c42f293"
+    ],
+    "drift_segments": [],
+    "id": "CLINIC-PARALLEL-01",
+    "manifest": {
+      "edition_id": "CLINIC-PARALLEL-01",
+      "glossary_url": "https://raw.githubusercontent.com/liwaw008-svg/parallel-margin/main/fixtures/glossary.txt",
+      "segments": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "source_language": "English",
+      "source_url": "https://raw.githubusercontent.com/liwaw008-svg/parallel-margin/main/fixtures/source.txt",
+      "target_language": "French",
+      "title": "Clinic consent bilingual edition",
+      "translation_url": "https://raw.githubusercontent.com/liwaw008-svg/parallel-margin/main/fixtures/translation.txt"
+    },
+    "manifest_digest": "3c42cb37e9d9b5ca118aabaef36d871da75d37170c6f60ad14fb66cd1d7ce1bf",
+    "manifest_url": "https://raw.githubusercontent.com/liwaw008-svg/parallel-margin/main/fixtures/manifest.json",
+    "owner": "0x05C0cc3F433F6e296f18117f558FdB9043434793",
+    "state": "ALIGNED",
+    "title": "Clinic consent bilingual edition"
+  },
+  "fixtureDisclosure": "The bilingual public fixtures are repository-owner demonstration records, not independent publishers."
+}
