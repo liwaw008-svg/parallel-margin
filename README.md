@@ -1,29 +1,29 @@
 # Parallel Margin
 
-Parallel Margin is a GenLayer translation-fidelity primitive. One public edition ticket binds an ordered source, its translation, a glossary, and the exact segment sequence. Validators independently fetch all four records, preserve their SHA-256 digests, and classify every segment as `EXACT`, `EQUIVALENT`, `DRIFT`, or `MISSING`.
+A bilingual workbench for checking whether a translation preserved the source, line by line.
 
-## Why consensus is necessary
+Writers paste two to eight matching segment pairs and declare the glossary that must survive the crossing. The first transaction freezes that edition. The second asks GenLayer validators to classify every segment as `EXACT`, `EQUIVALENT`, `DRIFT`, or `MISSING`.
 
-Translation equivalence is semantic, but the evidence envelope is deterministic. The model cannot skip a segment, add a label, change the order, or replace a source. The contract derives the final `FAITHFUL`, `USABLE`, or `REVIEW` band from the complete consensus vector.
+No hosted manifest and no GitHub content URL is part of the user journey. Duplicate edition IDs and identical text bundles are rejected; an aligned edition is terminal.
 
-## Lifecycle
+## Walkthrough
 
-1. `pin(manifest_url)` freezes the manifest and all three referenced documents as `PINNED`.
-2. `align(edition_id)` refetches and digest-checks everything, then performs one complete alignment round.
-3. The edition becomes terminal `ALIGNED`; `get_edition` exposes the complete audit trail.
+- Name the edition and choose two different languages.
+- Write source and translation together in the split workbench.
+- Add the bilingual terms that cannot drift.
+- Freeze the edition on StudioNet.
+- Run the margin audit and inspect each marked segment.
 
-Duplicate edition IDs and manifest digests are rejected. The supplied fixture demonstrates an English/French clinic-consent edition.
-
-## Verify
+## Checks
 
 ```text
 python -m pytest -q
 genvm-lint contracts/contract.py
 ```
 
-## Public artifacts
+## Links
 
-- Site: https://parallel-margin.pages.dev/
-- Repository: https://github.com/liwaw008-svg/parallel-margin
-- Contract: https://explorer-studio.genlayer.com/address/0x60b3314e0C389BBB4000339a66edF4D6Ea2Cd1dc
-- Network: StudioNet
+- https://parallel-margin.pages.dev/
+- https://github.com/liwaw008-svg/parallel-margin
+- StudioNet
+
