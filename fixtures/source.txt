@@ -1,0 +1,3 @@
+[S1] The clinic must give every patient a written explanation before consent.
+[S2] Consent may be withdrawn at any time without affecting future treatment.
+[S3] Urgent risks must be disclosed in plain language before the procedure.

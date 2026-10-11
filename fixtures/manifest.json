@@ -1,0 +1,10 @@
+{
+  "edition_id": "CLINIC-PARALLEL-01",
+  "title": "Clinic consent bilingual edition",
+  "source_language": "English",
+  "target_language": "French",
+  "source_url": "https://raw.githubusercontent.com/liwaw008-svg/parallel-margin/main/fixtures/source.txt",
+  "translation_url": "https://raw.githubusercontent.com/liwaw008-svg/parallel-margin/main/fixtures/translation.txt",
+  "glossary_url": "https://raw.githubusercontent.com/liwaw008-svg/parallel-margin/main/fixtures/glossary.txt",
+  "segments": ["S1", "S2", "S3"]
+}

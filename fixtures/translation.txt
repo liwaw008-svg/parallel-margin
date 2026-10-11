@@ -1,0 +1,3 @@
+[S1] La clinique doit remettre a chaque patient une explication ecrite avant le consentement.
+[S2] Le consentement peut etre retire a tout moment sans incidence sur les soins futurs.
+[S3] Les risques urgents doivent etre exposes en langage clair avant la procedure.
