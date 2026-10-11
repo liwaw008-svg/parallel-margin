@@ -1,9 +1,9 @@
 {
   "network": "StudioNet",
-  "contractAddress": "0xFDeB32AE891Ae4936441C57d34D680a9840e395e",
-  "deploymentTransaction": "0x9ed55fd5b98f84124466531550fd97ef49ad460d467df5729c47a37daf0ecda6",
-  "sourceSha256": "f495db1853f7c8aaa087a836326b4b7f3bff1581d92aef8ef42410d602660319",
-  "sourceCommit": "02765c058d9f07ae348d8165501be36855f838f0",
+  "contractAddress": "0x44b1F3b09Ba22a5fD0Ff75f8679d9ec3762B007D",
+  "deploymentTransaction": "0xe35844950e6cc90ed8502d72a3cb7267e9d88aa721aa98fe59ab5a58a00c6fea",
+  "sourceSha256": "240ca6ea8f6f4700939f521302ecda8f22f849bd1b96849e325714e00b46b37f",
+  "sourceCommit": "cc21b116321547a35cb7c4996c1bd578fd46e319",
   "repository": "https://github.com/liwaw008-svg/parallel-margin",
   "publicSite": "https://parallel-margin.pages.dev/"
 }
