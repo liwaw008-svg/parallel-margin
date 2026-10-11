@@ -1,9 +1,9 @@
 {
-  "editionId": "CLINIC-PARALLEL-01",
-  "contract": "0x60b3314e0C389BBB4000339a66edF4D6Ea2Cd1dc",
+  "editionId": "LIVE-EDITION-1791734350",
+  "contract": "0x3bf853420279E444CAA364FAAafb526eb06722Cf",
   "transactions": {
-    "pin": "0x3dce2ae9f155b4722fad8075dab3fac73927b186d35916f92f790a1035d7b021",
-    "align": "0x1ba64a9a898a3843e122d7023c50f6b640e71edc9960081aa2cf23c47f484e48"
+    "pin": "0xbae81593ce9373c0eec4a2549005d16c931c22490c28921310a51b3b8ea20f3d",
+    "align": "0x21d56d5fdd0da985348ac863582430c7e2e5fef9638135238e906bc129f6773d"
   },
   "final": {
     "alignment": [
@@ -14,39 +14,47 @@
       {
         "fidelity": "EXACT",
         "segment_id": "S2"
-      },
-      {
-        "fidelity": "EXACT",
-        "segment_id": "S3"
       }
     ],
     "band": "FAITHFUL",
-    "document_digests": [
-      "d9dbc6336dbc7afbba2c731faddab74b8f53bb20f3a8e5b330052ff17bf80f45",
-      "b70eef2a0d1d90d9aa671b1cf6b94258a43dfa953318bd52ca50984189c080f2",
-      "a6f1191961cebf9066b07afd183075d71f21a5c72ac38e3e5accf5a09c42f293"
-    ],
     "drift_segments": [],
-    "id": "CLINIC-PARALLEL-01",
-    "manifest": {
-      "edition_id": "CLINIC-PARALLEL-01",
-      "glossary_url": "https://raw.githubusercontent.com/liwaw008-svg/parallel-margin/main/fixtures/glossary.txt",
-      "segments": [
-        "S1",
-        "S2",
-        "S3"
-      ],
-      "source_language": "English",
-      "source_url": "https://raw.githubusercontent.com/liwaw008-svg/parallel-margin/main/fixtures/source.txt",
-      "target_language": "French",
-      "title": "Clinic consent bilingual edition",
-      "translation_url": "https://raw.githubusercontent.com/liwaw008-svg/parallel-margin/main/fixtures/translation.txt"
-    },
-    "manifest_digest": "3c42cb37e9d9b5ca118aabaef36d871da75d37170c6f60ad14fb66cd1d7ce1bf",
-    "manifest_url": "https://raw.githubusercontent.com/liwaw008-svg/parallel-margin/main/fixtures/manifest.json",
+    "glossary": [
+      {
+        "source": "consent",
+        "target": "consentement"
+      },
+      {
+        "source": "urgent risks",
+        "target": "risques urgents"
+      }
+    ],
+    "id": "LIVE-EDITION-1791734350",
+    "input_digest": "8e8341f0c76cfe5d0ac0ef4c3ca2e1ccd085c0442655224a52e461a96df3168b",
     "owner": "0x05C0cc3F433F6e296f18117f558FdB9043434793",
+    "source": [
+      {
+        "id": "S1",
+        "text": "Participants may withdraw their consent at any time without affecting future care."
+      },
+      {
+        "id": "S2",
+        "text": "The research team must explain urgent risks in plain language before enrollment."
+      }
+    ],
+    "source_language": "English",
     "state": "ALIGNED",
-    "title": "Clinic consent bilingual edition"
+    "target_language": "French",
+    "title": "Research consent translation",
+    "translation": [
+      {
+        "id": "S1",
+        "text": "Les participants peuvent retirer leur consentement \u00e0 tout moment sans affecter leurs soins futurs."
+      },
+      {
+        "id": "S2",
+        "text": "L'\u00e9quipe de recherche doit expliquer les risques urgents en langage clair avant l'inscription."
+      }
+    ]
   },
-  "fixtureDisclosure": "The bilingual public fixtures are repository-owner demonstration records, not independent publishers."
+  "disclosure": "The source, translation and glossary are repository-owner demonstration text supplied directly to the contract."
 }

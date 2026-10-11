@@ -25,5 +25,6 @@ genvm-lint contracts/contract.py
 
 - https://parallel-margin.pages.dev/
 - https://github.com/liwaw008-svg/parallel-margin
+- https://explorer-studio.genlayer.com/address/0x3bf853420279E444CAA364FAAafb526eb06722Cf
 - StudioNet
 

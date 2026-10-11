@@ -6,7 +6,7 @@
 <footer class="foot"><span>YOUR TEXT · IMMUTABLE PAIRS · COMPLETE FIDELITY VECTOR</span><a id="explorer" href="#">VIEW CONTRACT ↗</a></footer></main>
 <script type="module">
 import{createAccount,createClient}from'https://esm.sh/genlayer-js@1.1.8';import{studionet}from'https://esm.sh/genlayer-js@1.1.8/chains';
-const ADDRESS='__CONTRACT_ADDRESS__',ENDPOINT='https://studio.genlayer.com/api',reader=createClient({chain:studionet,endpoint:ENDPOINT,account:createAccount()});let wallet;
+const ADDRESS='0x3bf853420279E444CAA364FAAafb526eb06722Cf',ENDPOINT='https://studio.genlayer.com/api',reader=createClient({chain:studionet,endpoint:ENDPOINT,account:createAccount()});let wallet;
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];$('#edition').value='EDITION-'+Date.now().toString().slice(-9);$('#explorer').href='https://explorer-studio.genlayer.com/address/'+ADDRESS;
 function addPair(){const i=$$('.pair').length+1;if(i>8)return;const el=document.createElement('article');el.className='pair';el.dataset.id='S'+i;el.innerHTML='<div class="sid">S'+i+'</div><textarea class="source" placeholder="Write source segment '+i+'"></textarea><div class="spine"></div><textarea class="translation" placeholder="Write translated segment '+i+'"></textarea><div class="verdict">UNREAD</div>';$('#pairs').append(el)}addPair();addPair();$('#add').onclick=addPair;
 function note(text,bad=false){$('#status').textContent=text;$('#status').classList.toggle('bad',bad)}
